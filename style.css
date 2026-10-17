@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+#app {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.hidden {
+  display: none;
+}
+
+.dashboard {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.dashboard .card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  flex: 1;
+  min-width: 150px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.dashboard .card h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.dashboard .card p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+
+.form-section {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+#employee-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#employee-form input {
+  flex: 1;
+  min-width: 150px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#employee-form button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit-btn {
+  background: #27ae60;
+  color: white;
+}
+
+#cancel-btn {
+  background: #95a5a6;
+  color: white;
+}
+
+.search-section {
+  margin-bottom: 12px;
+}
+
+#search {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.table-section {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background: #34495e;
+  color: white;
+}
+
+.edit-btn, .delete-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.edit-btn {
+  background: #2980b9;
+}
+
+.delete-btn {
+  background: #c0392b;
+}
